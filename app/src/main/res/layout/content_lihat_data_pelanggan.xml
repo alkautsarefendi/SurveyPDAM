@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_lihat_data_pelanggan"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <TextView
+        android:id="@+id/review_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:text="MENU REVIEW"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorBlack"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/review_title"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/custom_shape"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="35dp"
+            android:elevation="4dp"
+            android:background="@drawable/custom_shape"
+            android:paddingTop="100dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingBottom="20dp"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/btnBelum"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.50"
+                    android:paddingTop="10dp"
+                    android:background="@drawable/profile_circular_border"
+                    android:drawableTop="@mipmap/belump"
+                    android:text="BELUM"
+                    android:textSize="14dp"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorBlack"
+                    />
+
+                <Button
+                    android:id="@+id/btnSudah"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_margin="10dp"
+                    android:layout_weight="0.50"
+                    android:paddingTop="10dp"
+                    android:text="SUDAH"
+                    android:background="@drawable/profile_circular_border"
+                    android:textAllCaps="true"
+                    android:drawableTop="@mipmap/sudahp"
+                    android:textSize="14dp"
+                    android:textColor="@color/colorBlack" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/review_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bacground_image_menu"
+        android:src="@mipmap/lihat_data_pelanggan"
+        android:elevation="10dp"
+        tools:targetApi="lollipop"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

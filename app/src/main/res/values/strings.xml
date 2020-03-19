@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Survey</string>
+
+    <string name="action_config">Konfigurasi</string>
+    <string name="msg_no_data">Data Tidak ditemukan</string>
+    <string name="action_input">Input Data Survey</string>
+    <string name="msg_scan_pelanggan">Lakukan Scan Pelanggan Terlebih Dahulu</string>
+    <string name="cr_pdam_name">Copyright &#169; PT. PITS</string>
+    <string name="action_search">Cari Data Pelanggan</string>
+    <string name="action_view">View Survey</string>
+    <string name="action_export">Export File Survey</string>
+    <string name="msg_export_notok">Data Survey tidak bisa di export</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="pipa_prompt">Pilih Status Pipa</string>
+
+    <string-array name="pipa_arrays">
+        <item>0 = Standard</item>
+        <item>1 = Non Standard</item>
+
+    </string-array>
+
+    <string name="ukuran_meter_prompt">Pilih Ukuran Meter</string>
+
+    <string-array name="ukuran_meter_arrays">
+        <item>1/2"</item>
+        <item>3/4"</item>
+        <item>1</item>
+
+    </string-array>
+
+    <string name="diameter_prompt">Pilih Diameter</string>
+
+    <string-array name="diameter_arrays">
+        <item>13</item>
+        <item>19</item>
+        <item>25</item>
+        <item>50</item>
+    </string-array>
+
+    <string name="status_prompt">Pilih Status Survey</string>
+
+    <string-array name="status_arrays">
+        <item>0 = Berhasil di Survey</item>
+        <item>1 = Pagar Terkunci</item>
+        <item>2 = Ada Anjing</item>
+        <item>3 = Alamat Tdk Ketemu</item>
+        <item>4 = Lain-lain</item>
+    </string-array>
+
+    <string name="rumah_prompt">Pilih Status Rumah</string>
+    <string-array name="rumah_arrays">
+        <item>0 = Perumahan Umum</item>
+        <item>1 = Perumahan Mewah</item>
+    </string-array>
+
+    <string-array name="gol_bangunan_prompt">
+        <item>MUSHALLA</item>
+        <item>MASJID</item>
+        <item>TK SWASTA/NEGRI</item>
+        <item>SD SWASTA/NEGRI</item>
+        <item>TOILET UMUM</item>
+        <item>KRAN UMUM</item>
+        <item>HIDRAN UMUM</item>
+        <item>PANTI ASUHAN</item>
+        <item>PUSKESMAS</item>
+        <item>POSYANDU</item>
+        <item>KLINIK KESEHATAN</item>
+        <item>RUMAH KAYU</item>
+        <item>RUMAH DARURAT</item>
+        <item>PERUMAHAN UMUM SEDANG</item>
+        <item>PERUMAHAN UMUM</item>
+        <item>RUMAH ADAT</item>
+        <item>RUMAH MEWAH</item>
+        <item>RUMAH BERTINGKAT</item>
+        <item>REAL ESTATE</item>
+        <item>KANTOR PEMERINTAH</item>
+        <item>KANTOR/ASRAMA TNI</item>
+        <item>KANTOR/ASRAMA POLRI</item>
+        <item>SMP NEGRI</item>
+        <item>SMA NEGRI</item>
+        <item>PERGURUAN TINGGI/UNIVERSITAS</item>
+        <item>SMP SWASTA</item>
+        <item>SMA SWASTA</item>
+        <item>WARUNG/KIOS</item>
+        <item>BENGKEL KECIL</item>
+        <item>PANGKAS RAMBUT</item>
+        <item>PENJAHIT</item>
+        <item>BOFET/MINUMAN</item>
+        <item>PERUSAHAAN KECIL</item>
+        <item>TOKO/RUKO</item>
+        <item>RUMAH MAKAN/RESTORAN</item>
+        <item>HOTEL/PENGINAPAN</item>
+        <item>SALON</item>
+        <item>APOTEK</item>
+        <item>BENGKEL BESAR</item>
+        <item>STASIUN RADIO</item>
+        <item>PASAR SWALAYAN</item>
+        <item>PERUSAHAAN BUMN/BUMD</item>
+        <item>RUMAH SAKIT SWASTA</item>
+        <item>PRAKTEK DOKTER</item>
+        <item>BIRO PERJALANAN</item>
+        <item>KERAJINAN TANGAN</item>
+        <item>KERAJINAN RUMAH TANGGA</item>
+        <item>KONVEKSI KECIL</item>
+        <item>INDUSTRI KECIL</item>
+        <item>PABRIK TAHU</item>
+        <item>PABRIK KERUPUK</item>
+        <item>PABRIK ROTI</item>
+        <item>INDUSTRI BESAR</item>
+        <item>SOSIAL UMUM</item>
+        <item>SOSIAL KHUSUS</item>
+        <item>RUMAH TANGGA A</item>
+        <item>RUMAH TANGGA B</item>
+        <item>RUMAH TANGGA C</item>
+        <item>INSTANSI PEMERINTAH</item>
+        <item>NIAGA KECIL</item>
+        <item>NIAGA BESAR</item>
+        <item>INDUSTRI KECIL</item>
+        <item>INDUSTRI BESAR</item>
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_clean_database">
+
+    <TextView
+        android:id="@+id/clean_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="HAPUS DATA"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorBlack"
+        android:textSize="40sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clean_title"
+        android:layout_marginLeft="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_vertical_margin"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_shape"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="20dp"
+            android:paddingTop="40dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                tools:ignore="NestedWeights">
+
+                <Button
+                    android:id="@+id/btnDataBelum"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/profile_circular_border"
+                    android:drawableTop="@mipmap/belump"
+                    android:paddingTop="10dp"
+                    android:text="DSML Belum"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorBlack" />
+
+                <Button
+                    android:id="@+id/btnDataSudah"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/profile_circular_border"
+                    android:drawableTop="@mipmap/sudahp"
+                    android:paddingTop="10dp"
+                    android:text="DSML Sudah"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btnFolderFoto"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/profile_circular_border"
+                    android:drawableTop="@mipmap/hapus_semua_foto"
+                    android:paddingTop="10dp"
+                    android:text="Hapus Semua Foto"
+                    android:textSize="15dp"
+                    android:maxLines="2"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorBlack" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/user_profile_photo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/clean_title"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bacground_image_menu"
+        android:src="@mipmap/clean_db"
+        android:elevation="4dp"
+        tools:targetApi="lollipop" />
+</RelativeLayout>

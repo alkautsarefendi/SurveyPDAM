@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile_petugas"
+            android:icon="@mipmap/user"
+            android:title="Profile" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_input_ganti_meter"
+            android:icon="@mipmap/icon_ganti_meter"
+            android:title="Input Survey" />
+    </group>
+    <group
+        android:id="@+id/grp3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lihat_data_pelanggan"
+            android:icon="@mipmap/lihat_data_pelanggan"
+            android:title="Data Pelanggan" />
+    </group>
+    <group
+        android:id="@+id/grp4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_input_file_spkp"
+            android:icon="@mipmap/masuk_file_spkp"
+            android:title="SPKO" />
+    </group>
+    <group
+        android:id="@+id/grp5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_export_file_meter"
+            android:icon="@mipmap/export_file"
+            android:title="Export File " />
+    </group>
+
+    <group
+        android:id="@+id/grp6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@mipmap/config"
+            android:title="Pengaturan" />
+    </group>
+
+    <group
+        android:id="@+id/grp7"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/logout"
+            android:title="Logout" />
+    </group>
+
+
+</menu>

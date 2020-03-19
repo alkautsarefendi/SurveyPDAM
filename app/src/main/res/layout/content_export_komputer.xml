@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:padding="@dimen/fab_margin"
+    tools:showIn="@layout/activity_export_dari_komputer">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.stacktips.view.CustomCalendarView
+                    android:id="@+id/calendar_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/off_white"
+                    app:calendarBackgroundColor="@color/off_white"
+                    app:calendarTitleTextColor="@color/black"
+                    app:currentDayOfMonthColor="@color/blue"
+                    app:dayOfMonthTextColor="@color/black"
+                    app:dayOfWeekTextColor="@color/black"
+                    app:disabledDayBackgroundColor="@color/off_white"
+                    app:disabledDayTextColor="@color/grey"
+                    app:selectedDayBackgroundColor="@color/colorPrimaryDark"
+                    app:titleLayoutBackgroundColor="@color/white"
+                    app:weekLayoutBackgroundColor="@color/white"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingTop="20dp">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/txtExportFile"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableTint="@color/colorWhite"
+                        android:hint="Nama File"
+                        android:inputType="textEmailAddress"
+                        android:singleLine="true" />
+                </android.support.design.widget.TextInputLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="20dp">
+
+                <Button
+                    android:id="@+id/btnExporttoLocal"
+                    android:textAllCaps="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/background_button"
+                    android:text="Export"
+                    android:textColor="@color/white"
+                    android:typeface="monospace" />
+
+                <Button
+                    android:id="@+id/btnExportCanceltoLocal"
+                    android:textAllCaps="true"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="0.50"
+                    android:background="@drawable/background_button"
+                    android:text="Cancel"
+                    android:textColor="@color/white"
+                    android:typeface="monospace" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
